@@ -87,8 +87,9 @@
 Self-Done/
 ├── README.md                                # 项目说明（本文件）
 ├── firmware/                                # 固件代码
-│   ├── LCD_Test/LCD_Test.ino                # LCD 颜色测试 + 背光 + U盘(MSC)
-│   └── TF_Test/TF_Test.ino                  # TF 卡读取测试（列目录/读文件）
+│   ├── LCD_Test/LCD_Test.ino                # LCD 颜色测试 + 背光 + U盘(MSC)（位击驱动）
+│   ├── TF_Test/TF_Test.ino                  # TF 卡读取测试（列目录/读文件）
+│   └── FPS_Test/FPS_Test.ino                # LCD 硬件 i80 8080 + DMA 帧率测试（点亮屏）
 ├── hardware/                                # 硬件工程（EasyEDA）
 │   ├── LCD-V2.2.eprj2                       # V2.2 工程
 │   ├── V2.2_backup/                         # V2.2 工程备份 (.epro2)
@@ -109,8 +110,8 @@ Self-Done/
 | 背光点亮 | ✅ 完成 |
 | TF 卡读取（SDMMC 4-bit） | ✅ 完成 |
 | U 盘模式（USB MSC） | ✅ 完成 |
-| LCD 显示 | ⚠️ 全黑，硬件信号排查中 |
-| 视频播放 | ⏳ 待 LCD 点亮后 |
+| LCD 显示 | ✅ 完成（esp_lcd 硬件 i80 + DMA 点亮） |
+| 视频播放 | ⏳ 待固件实现（读 TF 卡 + DMA 刷屏） |
 | PC 软件（导视频/监控） | ⏳ 待开发 |
 
 ## 踩坑记录
@@ -122,10 +123,10 @@ Self-Done/
 5. **背光极性反**：P-MOS 高边电路低电平点亮，与低边 NMOS 逻辑相反。
 6. **第三方 USB MSC 库不兼容**：ESP32USBMSC 库是给 core 3.x 的；core 4.0 应直接用官方 `USBMSC.h`（在 `cores/esp32/`）。
 7. **按键丝印反**：见上文「烧录配置」说明。
+8. **位击驱动屏全黑 / 帧率低**：bit-bang 驱动 ST7789 时序不足、易全黑；改用 `esp_lcd` 硬件 LCD_CAM（i80 8080）+ DMA 后正常点亮，帧率可达硬件极限（参考 `FPS_Test`）。
 
 ## 下一步计划
 
-1. 解决 LCD 显示全黑问题（排查数据/控制线或初始化序列）
-2. 实现 TF 卡视频解码 + 8080 并口 DMA 播放（目标 60fps）
-3. 开发 PC 端软件（USB 导入视频 + 监控数据显示 + 心跳/退出检测）
-4. 验证「电脑开机亮屏 / 关机熄屏」互锁电路（Q2 + J1）
+1. 基于 `esp_lcd` 硬件 i80 + SDMMC 4-bit，实现 TF 卡视频解码 + DMA 播放（目标 60fps）
+2. 开发 PC 端软件（USB 导入视频 + 监控数据显示 + 心跳/退出检测）
+3. 验证「电脑开机亮屏 / 关机熄屏」互锁电路（Q2 + J1）
