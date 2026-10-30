@@ -84,7 +84,7 @@
 ## 目录结构
 
 ```
-基于ESP32-S3-WROOM-1-N4R2的LCD屏幕/
+基于ESP32-S3-WROOM-1-N4R2的LCD屏幕驱动板/
 ├── README.md                                # 项目说明（本文件）
 ├── firmware/                                # 固件代码（Arduino IDE）
 │   ├── LCD_Test/LCD_Test.ino                # LCD 颜色测试 + 背光 + U盘(MSC)（位击驱动）
