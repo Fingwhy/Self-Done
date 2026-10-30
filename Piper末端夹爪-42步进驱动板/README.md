@@ -15,7 +15,7 @@
 | 主控 | ESP32 开发板（外置，2.54 排针连接，板上不含 MCU） |
 | 输入保护 | PPTC + PMOS 反接 + TVS + **TPS26600 eFuse** |
 | 电源变换 | LMR33630（24V→5V/3A）→ TLV75533（5V→3.3V/500mA） |
-| 板尺寸 | 约 40 × 40mm，2 层 |
+| 板尺寸 | 约 70 × 50mm，2 层 |
 | 开发环境 | 嘉立创 EDA 专业版 + ESP-IDF v6.1 |
 
 ## 实现的功能
@@ -78,12 +78,16 @@ Piper末端夹爪-42步进驱动板/
 | 阶段 | 状态 |
 |---|---|
 | 接口调研、方案选型 | ✅ 完成 |
-| 原理图 v2 | ✅ 完成（6 个功能模块，38 种元件） |
-| BOM | ✅ 与原理图对齐 |
+| 原理图 v2 | ✅ 完成（6 个功能模块，38 种元件 / 59 颗） |
+| BOM | ✅ 与原理图对齐，元件已下单 |
 | 器件布局方案 | ✅ 完成（见 `docs/布局指南.md`） |
-| **打样前修正** | ⏳ EF_RTN 需接回 GND；J1 需焊前实测 |
-| PCB 布局布线 | ⏳ 未开始 |
-| 固件 | ⏳ 未开始 |
+| PCB 布局布线 | ✅ 完成（59 元件 / 623 走线 / 55 过孔 / 49 网络） |
+| **DRC** | ✅ **0 错误**（149 个非 GND 焊盘零孤立） |
+| **PCB 打样** | ✅ **已下单（2026-10-30）** |
+| **元件采购** | ✅ 已下单 |
+| 固件 | ⏳ 待开展 |
+
+> 打样记录见 [`docs/打样记录.md`](docs/打样记录.md)
 
 ## 已知限制
 
@@ -104,4 +108,18 @@ Piper末端夹爪-42步进驱动板/
 | LMR33630 缺 FB 分压与 BOOT | 无 5V 输出 | 补 R11/R12 + C16 |
 | U4 的 VIO 无去耦 | CAN 误码率上升 | 补 C17 |
 | AS5600 的 I2C 未引出 | 编码器读不到 | 加 J6 |
-| **EF_RTN 悬空** | **整板不上电** | 需补 0Ω 到 GND（待修） |
+| U6 的 EP 无散热过孔 | 不符合手册，白白浪费 PowerPad | 补 3×3 共 9 个 EF_RTN 过孔 |
+
+### ⚠️ 一次重要更正：TPS2660 的 RTN 绝不能接 GND
+
+评审初期曾把 `EF_RTN` 悬空误判为"整板不上电"，并建议加 0Ω 接到 GND。**这个判断是错的。**
+
+TI 数据手册 9.3.5.5 节原文：
+
+> Internally, the device has reverse input polarity protection block **between RTN and the GND terminal**. **Connecting RTN pin to GND pin disables the reverse input polarity protection feature** and the TPS2660x gets **permanently damaged** when operated under this fault event.
+
+10.4 节 Do's and Don'ts 第一条：**Do not connect RTN to GND.**
+
+TI E2E 工程师的解释说明了机制：**输入为正时 RTN 在内部连接到 GND；输入反接时内部断开，RTN 跟随输入下沉到负电位**，反接保护块才有工作空间。外部硬短接会让反接瞬间 RTN 被钉在 0V，保护块失效，芯片永久损坏。
+
+**最终设计：`EF_RTN` 全程浮离 GND**，7 个连接点（U6 pin3/pin6/pin8/pin17、R5 下端、R17 下端、C21 下端）都只挂在 RTN 上，与 GND 无任何电气连接。
