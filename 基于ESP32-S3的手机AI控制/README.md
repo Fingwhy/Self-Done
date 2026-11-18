@@ -2,33 +2,28 @@
 
 **项目状态：准备开始**
 
-更新日期：2026-11-05
+更新日期：2026-11-18
 
-计划使用 ESP32-S3 连接 iPhone，通过 USB HID 模拟鼠标与键盘，结合屏幕镜像和视觉模型完成手机操作。当前仅建立项目计划，尚无自研固件、App、硬件设计或真机验证结果。
+首版面向 iPhone 15 Pro。手机通过底部 USB-C 接入扩展坞，画面经 HDMI 有线采集，ESP32-S3-WROOM-1-N4R2 自制载板负责 USB 键鼠，扩展坞提供 PD 充电和额外 USB 数据口。当前已有方案和原理图草案，待绘制 EDA 工程与真机验证。
 
 本项目由本人自主完成设计、开发、调试和验收。参考方案用于学习架构与评估可行性，不代表已复现或已具备完整功能。
 
 ## 参考方案
 
-主要参考：[ESP32 iPhone Agent by Henry Yuan](https://github.com/onehumanbeing/esp32-iphone-agent)。研究其当前 AirPlay + USB HID + iPhone App 架构；旧版 `v0.1.0` / `legacy` 的电脑服务架构仅作为调试参考。
-
-计划链路：iPhone 屏幕镜像 → ESP32-S3 接收 AirPlay → 蓝牙转发压缩视频 → 同机 App 解码并调用视觉模型 → 蓝牙动作命令 → ESP32-S3 输出 USB HID → iPhone。
+- [Glassbox](https://github.com/yoyicue/glassbox) 提供有线取画面、键鼠和助手流程参考。
+- [ESP32 iPhone Agent by Henry Yuan](https://github.com/onehumanbeing/esp32-iphone-agent) 提供 HID 和相对指针校准参考。
 
 ## 初步任务
 
-- [ ] 确认 iPhone 型号、系统版本、接口及 Mac/Xcode 开发条件。
-- [ ] 固定参考仓库提交版本，核对依赖、协议和许可证。
-- [ ] 选定带原生 USB 与 PSRAM 的 ESP32-S3 开发板。
-- [ ] 验证 iPhone 识别 USB 鼠标键盘及 AssistiveTouch 操作。
-- [ ] 验证 AirPlay、蓝牙视频传输与 App 解码。
-- [ ] 实现单步截图、模型决策、HID 操作、画面复核闭环。
-- [ ] 完成停止、断线恢复、指针校准及真机验收记录。
+- [ ] 用现成扩展坞在 iPhone 15 Pro 上同时验证视频、鼠标、PD 充电和额外数据口。
+- [ ] 绘制并打样 N4R2 载板，烧录原生 USB HID 固件并验证辅助触控。
+- [ ] 接入 HDMI 采集卡和上位机取帧程序，验证画面裁切及指针校准。
+- [ ] 实现读屏、单步控制与画面复核，记录停止和断线恢复行为。
 
 ## 文档与范围
 
-- [项目计划报告](docs/项目计划报告.md)：系统设计、阶段任务、验收标准和风险。
-- 当前提交只包含项目说明与计划；实现时再建立 `firmware/`、`hardware/` 等目录。
-- 首版聚焦竖屏、点击、滑动和 ASCII 输入；中文、多指手势及定制 PCB 留待基础功能通过后评估。
+- [有线原型设计方案](docs/有线原型设计方案.md) 包含现行接线、载板原理图草案、固件和上位机方向。
+- [项目计划报告](docs/项目计划报告.md) 保留立项时的 AirPlay 方案记录。
 
 ## 来源与许可
 
