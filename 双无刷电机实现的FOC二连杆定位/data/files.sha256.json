@@ -1,0 +1,467 @@
+[
+  {
+    "path": "data/position_measurements.csv",
+    "bytes": 758,
+    "sha256": "9d368a181b4d77b0da9d9b7fac5d40c475eccf8b98b8272b3dd2c2ac9bfd70ba"
+  },
+  {
+    "path": "data/README.md",
+    "bytes": 693,
+    "sha256": "5864ffae46480c8bd775f5804d3e9d66dc3169c28780a7d3dd32edfd5cbb0b53"
+  },
+  {
+    "path": "data/serial_logs/MS7015_20261111_143229_612.csv",
+    "bytes": 28019,
+    "sha256": "87e9b1e46b44388cece28108502fc1f00fac93c80fb42f5eeddaee68945a951d"
+  },
+  {
+    "path": "data/serial_logs/MS7015_20261111_143322_289.csv",
+    "bytes": 35370,
+    "sha256": "950c7192f4a5257199a598b9815416a8a23ead4d735f65d9b58e615576866f54"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142201_140.csv",
+    "bytes": 3263,
+    "sha256": "f446953b19814774fdd8d513e8ec1df45781a813763ed68c113a06aa1be59033"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142217_717.csv",
+    "bytes": 30155,
+    "sha256": "9c8afb037fb4ac055239e540e5ee6721dea841260d921d6154c29c44a1a1aa37"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142356_773.csv",
+    "bytes": 30178,
+    "sha256": "358f604a6585fd12747e44df367d36c4838bc3383b7cf611e9cccfc83c97c7b7"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142449_713.csv",
+    "bytes": 23162,
+    "sha256": "319f542afb5d9aa7583c8a7d545241b7cbcbf669ca4ee2e93c4fa67a011e31a3"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142606_150.csv",
+    "bytes": 21429,
+    "sha256": "27d27ca61a9c96bb8c58d2c415174d955d429546b5ab8166409fb0d52e7f096a"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142619_688.csv",
+    "bytes": 24228,
+    "sha256": "05a85632a392bf0268868351c2d5ed3a9ea6a8396732e6a99773e48dc9212b11"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142625_803.csv",
+    "bytes": 50005,
+    "sha256": "078ab2024b6ab29402cd0ec97eb9ca2f26f9b74e595a612be5063f4a6f6c41f9"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142634_297.csv",
+    "bytes": 40318,
+    "sha256": "6895d7ff8e75adf9b8ce42d70eae5c968ccbcefd79505b8253dd6d60b5c53e0f"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142643_372.csv",
+    "bytes": 21434,
+    "sha256": "b76715da677a2964c362b5947a6fd79132a0e31a5349066386077c346a32b816"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_142649_604.csv",
+    "bytes": 21790,
+    "sha256": "135177621766f32362cb5477a51baa4fa0a748b94bc6c6228e0ad695030e64a2"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_164516_549.csv",
+    "bytes": 38873,
+    "sha256": "29e45fa20faaa04ea4fe619214a6e73ed1b21537aef84a7ca644db7033fd89a6"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_164608_834.csv",
+    "bytes": 75541,
+    "sha256": "19ccdc33dc9f3539b8ba5383edb7bcfb99d31b277a58d2e1d5fe71429d5ef14a"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_164807_942.csv",
+    "bytes": 75276,
+    "sha256": "d15bbb7393bae0b93fe685958c5f2207de6c2fc6d94c226ddf128b1cf604c654"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_165043_632.csv",
+    "bytes": 26133,
+    "sha256": "0abe2927efd37a250b042840e82540929dc2072b7acf227572b3e7df7383b390"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_165053_627.csv",
+    "bytes": 282472,
+    "sha256": "94ebcee6115f14c3c6bac333677a4fea1631e10fc9601318fbf74f6528f16613"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_165734_468.csv",
+    "bytes": 295667,
+    "sha256": "122c268c447eb5e26ee5cd520b9df57d91880d7dc6a671914555f58e05b188ba"
+  },
+  {
+    "path": "data/serial_logs/MS7025_20261111_165943_133.csv",
+    "bytes": 129935,
+    "sha256": "46c400c948ea5d77a2d1a80262fd01c14f1e6c9dd37b66c3e1cbd3fc0df690b6"
+  },
+  {
+    "path": "data/serial_logs/XY_20261111_144942_985.txt",
+    "bytes": 1006,
+    "sha256": "a32cca5d581bf68a355b2493ccd985b9937ce8efbaae439d769653925b48e37d"
+  },
+  {
+    "path": "data/serial_logs/XY_20261111_145140_638.txt",
+    "bytes": 1394,
+    "sha256": "d858928b96cf6e0d345da8b54a8b793236f8b396b50f9cf1d74f54a5546d9b64"
+  },
+  {
+    "path": "data/serial_logs/XY_20261111_145240_662.txt",
+    "bytes": 379,
+    "sha256": "62d7bf57ef56c0eec385aae1fc2c7af9a8f23df6690d34e81c606ae702843c59"
+  },
+  {
+    "path": "data/serial_logs/XY_20261111_145247_739.txt",
+    "bytes": 36059,
+    "sha256": "459ed04c2ba6a14561cc10892d23cd08c711b111d06176062edfa729508bef36"
+  },
+  {
+    "path": "data/serial_logs/XY_20261111_145441_308.txt",
+    "bytes": 379,
+    "sha256": "21f85cd87678f64c94aae5ea503fdc9fd9b51b9020d3cc0259079567a89d4f24"
+  },
+  {
+    "path": "data/serial_logs/XY_20261111_145449_026.txt",
+    "bytes": 4854,
+    "sha256": "b9811dd672c2c6fa62f00a4cb03af955bb380387f7844cea96f95c92071bbd18"
+  },
+  {
+    "path": "data/历史记录/MS7025_V1_元件与走线预测_核实清单.md",
+    "bytes": 10344,
+    "sha256": "ac93772ab470c32d857de9c745e6fc62113334599a3900c0ce1349b5d7ff50d8"
+  },
+  {
+    "path": "data/历史记录/MS7025_V1_首次通信成功_2026-11-06.md",
+    "bytes": 985,
+    "sha256": "87a3a5b77e59a5208de76879929903f5e7844234d88275dc13321262a4520093"
+  },
+  {
+    "path": "data/历史记录/双电机二连杆_V0_结构与测量.md",
+    "bytes": 3864,
+    "sha256": "28ddb01914be58bdf0317f1715ffbea2810b2e46ae893f11ad2e3f483efdaf57"
+  },
+  {
+    "path": "docs/01_复活与项目过程.md",
+    "bytes": 4267,
+    "sha256": "30320a76e06989760eb0748f9d22b2818777b46e4478d5dad3ef7f10220a90d2"
+  },
+  {
+    "path": "docs/02_接线与串口操作.md",
+    "bytes": 3168,
+    "sha256": "30dfd7e145eeac045e9c80394f2b05ea7f78452b26dcbbc8246b42fd7812e0f1"
+  },
+  {
+    "path": "docs/03_运动学与坐标标定.md",
+    "bytes": 3125,
+    "sha256": "932545dd840c0170440f98b9cd12fe2a0509dfe52843b11baca638ac4bacf094"
+  },
+  {
+    "path": "docs/04_FOC学习与实现计划.md",
+    "bytes": 3416,
+    "sha256": "64cae16caeaae7c390772875f63627a94922eaa6286f21387a3ea972cdaad075"
+  },
+  {
+    "path": "docs/05_运动异常与核实清单.md",
+    "bytes": 3103,
+    "sha256": "f5c069f604fa389e33f4faeb7ac1ec18adc38c266c909bf76a33ec4a45c94b57"
+  },
+  {
+    "path": "docs/06_参考资料.md",
+    "bytes": 2429,
+    "sha256": "42e67b5529e6b8caaf1934790d1a1b2b2aec2a3b2e6f4c484f64bd8bf0ae937e"
+  },
+  {
+    "path": "docs/07_离线验证记录.md",
+    "bytes": 1139,
+    "sha256": "c831b391e9dc7c21e9844e62ff8b2a46f2e653cc130cc4e4bd434ec9ba3032dd"
+  },
+  {
+    "path": "firmware/README.md",
+    "bytes": 525,
+    "sha256": "4a596cb0587218097f494134a2486909095ff8342d05a25145bf8cab00bc63eb"
+  },
+  {
+    "path": "hardware/images/MS7025_V1_front.jpg",
+    "bytes": 225198,
+    "sha256": "e4b4f7748a714b018a129c8ba66c97e9b15be9e0f80f86819c429f743b041b1a"
+  },
+  {
+    "path": "hardware/images/MS7025_V1_rear.jpg",
+    "bytes": 148068,
+    "sha256": "7b2c2423bba906dca49ecade59cfb59b29e084252584fb141a2489da55ed0703"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/build.py",
+    "bytes": 11983,
+    "sha256": "c7c8b23a4cc87ec8163eddbea1a566e00e86c5eec0fbebba6b86e922753c7ccb"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/SolidWorks/01_底座_MS7015.SLDPRT",
+    "bytes": 110001,
+    "sha256": "97c4e6606d0dd982e5813b71e6df9544f37ab7186d03aa1c41b6900c993224de"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/SolidWorks/02_大臂_100mm.SLDPRT",
+    "bytes": 114252,
+    "sha256": "387eb15b810f3a7c935b5b5efaf798ac3a654de8a5e4292351a548b1b2e09917"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/SolidWorks/03_小臂_100mm.SLDPRT",
+    "bytes": 97713,
+    "sha256": "bdd4285f3b6ad59346d3ac7bea546473ddfc531e3f47250acc3db1c1ad734fa3"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/SolidWorks/参考_MS7015_外形.SLDPRT",
+    "bytes": 95279,
+    "sha256": "b6083a882990b48c023b6da4ba9e1af96ff0dbbe4dfbdd988a999ee5ebeb2960"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/SolidWorks/参考_MS7025_外形.SLDPRT",
+    "bytes": 100084,
+    "sha256": "1c2fff70900aa1366574da713cb1adc983e41de3df72dbc6d2366af0aebe734e"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/SolidWorks/参考_指针.SLDPRT",
+    "bytes": 106105,
+    "sha256": "f0325cca07dd61d9cce28f99a3e1ac3c8d9ceefa43f6dd8cbec03adbf8b2ba78"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/SolidWorks/双电机平面二连杆.SLDASM",
+    "bytes": 123710,
+    "sha256": "5155413629b56c5f45056cd1026b9f1d1aab9d3043b50e68e7f4baf7a1d21c54"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/STL/01_底座_MS7015.STL",
+    "bytes": 101684,
+    "sha256": "364e928299415b5e83f51b22b4965f6516e8d6b46914bbfc3dfa14de0cc5a73f"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/STL/02_大臂_100mm.STL",
+    "bytes": 72884,
+    "sha256": "de4cb0db65f11dc54804b0ffebd5d0389422b5162cea06f384fbf883bec63bd6"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/STL/03_小臂_100mm.STL",
+    "bytes": 42284,
+    "sha256": "6a331a9cf969f6038b4b453ce90be5b260d7dcc8b72cf5640d0d4519cd13a1e0"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/俯视预览.png",
+    "bytes": 173664,
+    "sha256": "941ec2a9f8e113bfccf141235de233ba6a646f799f8002896b41380bbeeaf5d1"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/总装预览.png",
+    "bytes": 178985,
+    "sha256": "113320f51262ba33f57255e8501f0726276f782b770ad27a9d06527a1bba7c5c"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/打印与装配.md",
+    "bytes": 2178,
+    "sha256": "cebf45cad55eb103f8efc8f7995b461ce418869ea4a9be4fdcf00e5b190986b7"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link/验证记录.json",
+    "bytes": 6777,
+    "sha256": "822144a2692da82363ec3a444d90bc568944e0f88be13d422a0a3473686f0d98"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/build.py",
+    "bytes": 5182,
+    "sha256": "25cfb5b684cdbbcf9f3372c7cbed02d0a2ff931e4b688c6a7506f5a6363bd986"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/build_workbench_base.py",
+    "bytes": 6442,
+    "sha256": "8418e02c97e5e4e503593a0a41c9300f506e79b0bce153ad70f4582244c58741"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/SolidWorks/01_底座_MS7015_同平面.SLDPRT",
+    "bytes": 217395,
+    "sha256": "7b3ec9e2d87ae6ac2b1938aed96381fb6f65d1fbd4e7f895077e56867beb975c"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/SolidWorks/02_下沉大臂_100mm.SLDPRT",
+    "bytes": 125913,
+    "sha256": "3a1ace1f8e7ab04903c7caced1e2710e6021e43552de6714939ef1fc54816b3f"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/SolidWorks/03_小臂_100mm_同平面.SLDPRT",
+    "bytes": 97054,
+    "sha256": "6adf6c3b36e24d50e2b33ebf52e09fe19de9fca74ec8fbc496027eb3255e7d82"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/SolidWorks/双电机平面二连杆_底面等高.SLDASM",
+    "bytes": 156380,
+    "sha256": "a9b73589fbbfce81b1144bcfcadafadeed4fa6e2b69528ccc96b1113490d1dcd"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/SolidWorks/同平面参考_MS7015_外形.SLDPRT",
+    "bytes": 95401,
+    "sha256": "e8476c23b2b3a7bfe09ebb243f2ee6f6182f2941bad2cb987928a1ac43814878"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/SolidWorks/同平面参考_MS7025_外形.SLDPRT",
+    "bytes": 100188,
+    "sha256": "a9642580e98edcb687a65e4b274b4644c41e1ed4c9c68cf7e75773e7754005be"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/SolidWorks/同平面参考_指针.SLDPRT",
+    "bytes": 118102,
+    "sha256": "b5a3adec619109adbd764dc738215771b85435eb262a3aee149cb3a2d848d35d"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/STL/01_底座_MS7015_同平面.STL",
+    "bytes": 108684,
+    "sha256": "eab20af6e0f408f6d83a0b89c63daa604e58fab08ab33106fcc1459901a7e4be"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/STL/02_下沉大臂_100mm.STL",
+    "bytes": 95884,
+    "sha256": "05b0252ed015c5d2516bec2f80a96d34cf4fa85b3573bc848b2e1ca5cadd416b"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/STL/03_小臂_100mm_同平面.STL",
+    "bytes": 42284,
+    "sha256": "4106d258fb20fad7611fbd6d6d5e7e213c427e0a48b6bd852f2eebd993c1f00c"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/二连杆_三件平铺.STL",
+    "bytes": 246684,
+    "sha256": "3e2af1390dc81b2d1513233e0d509675b2a48e6fe796263c1e063a6a79ba54c6"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/俯视预览.png",
+    "bytes": 178522,
+    "sha256": "c4953098583e5f4c1aaa384b048a7ea5111ced37e3feb901d2cb1b39b294f1ba"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/01_底座_MS7015_工作台125.33双耳.STL",
+    "bytes": 131484,
+    "sha256": "7d90a27a0e4c8b0bf8b967b98f5058f044fe218253794adf88d342e12f17fd3a"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/SolidWorks/01_底座_MS7015_工作台125.33双耳.SLDPRT",
+    "bytes": 236419,
+    "sha256": "6bccbe5ff00527d89cb0e9de75b9fe424cdc0a6c59c46ab2ce5a1f98a098547e"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/SolidWorks/双电机平面二连杆_工作台固定版.SLDASM",
+    "bytes": 155891,
+    "sha256": "1f9d857247520f5d6d6b13533140d013d57ff226ec319b53f43972bdedebe9bc"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/SolidWorks/工作台版_02_下沉大臂_100mm.SLDPRT",
+    "bytes": 125129,
+    "sha256": "5c2d5ad8b68d1b1f0f11e0383dcba2e690e9c4440ade3551c00c36802f7f3bf8"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/SolidWorks/工作台版_03_小臂_100mm_同平面.SLDPRT",
+    "bytes": 97657,
+    "sha256": "baecdad61010b123d1ccb184291193d0d7aa5f6646aa35641cd4072991f7abc1"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/SolidWorks/工作台版_同平面参考_MS7015_外形.SLDPRT",
+    "bytes": 95577,
+    "sha256": "f39fce48e8030d82fc3ccf3deddb2ad7e2d16fd93da4add1edaf4a0605e65198"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/SolidWorks/工作台版_同平面参考_MS7025_外形.SLDPRT",
+    "bytes": 100975,
+    "sha256": "91687d5a4d3f29110ba1b24aa6197474d2224823d787d5fe829d961c6c526d63"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/SolidWorks/工作台版_同平面参考_指针.SLDPRT",
+    "bytes": 119879,
+    "sha256": "36be42e870d46e964cff5be245d5e41375d5d1f83fde8a9131bfc7298055b48b"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/俯视预览.png",
+    "bytes": 191751,
+    "sha256": "e21f8685b48fff59a6b6f08cca73b5276ee8f55a7c5b2e2be0015009ec88f6e2"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/安装说明.md",
+    "bytes": 1258,
+    "sha256": "3539566e0b07cbb170f01b9230e895f922e89cc5d545aefb5c8adc8e2c12902c"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/总装预览.png",
+    "bytes": 182520,
+    "sha256": "25a7175c6c8a35ef3f03d0934d757def0ccc4bb37143b120c08109f93e367f38"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/工作台固定版/验证记录.json",
+    "bytes": 4336,
+    "sha256": "ebac4d2b13a6e25f2ff38e655bd8049099906335611df56b1a56cc0fb98da287"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/平铺预览.png",
+    "bytes": 16481,
+    "sha256": "5094abbcfe3f917d254a4098f182626da1ddee3ced453e8ff4d09fa291e81f0a"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/总装预览.png",
+    "bytes": 186345,
+    "sha256": "4c76ec1102cce36e310e76df8587be4162c40bf734b9c323b5cdfe607e86bdd7"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/打印与装配.md",
+    "bytes": 1949,
+    "sha256": "c9162cf85693c227c04f152ed61191fe1784c401bbf00b100a79825d173e9df6"
+  },
+  {
+    "path": "hardware/mechanical/cad_two_link_coplanar/验证记录.json",
+    "bytes": 7146,
+    "sha256": "78d4005b60af293a9e70ad5dba72dfe03a07d9f1bb8657558f302dc5987cf1d8"
+  },
+  {
+    "path": "hardware/README.md",
+    "bytes": 1225,
+    "sha256": "c55559cca15d4ceb7cef401a60a34134067b1c6ebd58f18305c9b8da38c45244"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4418,
+    "sha256": "1cc8312115f5f6edce0aa86105706dcb9fe2436ec2ce6b1d3647f3188b50f275"
+  },
+  {
+    "path": "tools/joint_angles.ps1",
+    "bytes": 315,
+    "sha256": "a5efe9e031059eaeed504829e1b381efcbc8b82211e17824aa0781d5cf80f4ea"
+  },
+  {
+    "path": "tools/README.md",
+    "bytes": 2118,
+    "sha256": "9453454ae1d381ca6c3b79f5c5f81cd963da210978aef5369513b34928ab2ad6"
+  },
+  {
+    "path": "tools/two_link_zero.json",
+    "bytes": 111,
+    "sha256": "7a7a611dcffc821d78096e8e751e954c5d468009315d3c68609a40189954e1e5"
+  },
+  {
+    "path": "tools/平面定位.ps1",
+    "bytes": 11695,
+    "sha256": "692c95e32d21120f09162c6f024b2aa2d16c0014270eb9577a98f8d816300e21"
+  },
+  {
+    "path": "tools/生成定位指令.ps1",
+    "bytes": 6953,
+    "sha256": "ecb207450e3a97aed4407ddea354d6edd362576dcdc586509b74cfab1fc60d71"
+  },
+  {
+    "path": "tools/记录小臂.ps1",
+    "bytes": 12377,
+    "sha256": "5f02b15447d649478a5dabf198586958c2bbac005378c427b6c428473c4c6b76"
+  }
+]
